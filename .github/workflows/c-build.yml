@@ -16,4 +16,5 @@ jobs:
       
     - name: make all
       run:  make all -C git-inspector-master/git-inspector-master/repositories/calculator-master/calculator-master/
+      run: .\reports.sh 
 
