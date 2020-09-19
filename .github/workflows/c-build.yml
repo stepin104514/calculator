@@ -15,4 +15,5 @@ jobs:
     - uses: actions/checkout@v2
       
     - name: make all
-      run:  make all -C calculator-master/
+      run:  make all -C calculator/git-inspector-master/git-inspector-master/repositories/calculator-master/calculator-master/
+
